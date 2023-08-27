@@ -1,0 +1,101 @@
+body {
+    font-size: 16px;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+/* Header */
+#header-nav {
+    background-color: gray;
+    border: 2px solid black;
+    border-radius: 0;
+    margin-bottom: 0;
+    height: auto;
+}
+
+.navbar-brand a {
+    text-decoration: none;
+}
+
+.navbar-brand h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1.5em;
+    font-weight: bold;
+    line-height: .75;
+}
+
+#nav-list {
+    margin-top: 0;
+}
+
+#nav-list a {
+    color: #000;
+    text-align: center;
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #000;
+    font-size: 20px;
+}
+
+
+#nav-list a:hover {
+    background-color: lightgray;
+}
+
+.navbar-header button .navbar-toggle,
+.navbar-header .icon-bar {
+    border: 2px solid #000;
+}
+
+.navbar-header button.navbar-toggle {
+    margin-top: 10px;
+}
+
+
+/* End Header */
+
+/* Home page */
+
+#home-tiles .Menu {
+    width: 100%;
+    margin: 5px;
+    background-color: rgb(193, 192, 192);
+}
+
+
+#home-tiles h2 {
+    margin-top: 15px;
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+
+#home-tiles .Menu h3 {
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-top: 10px;
+    padding-top: 15px;
+
+}
+
+#home-tiles .Menu p {
+    padding: 10px;
+}
+
+/* End Home page */
+
+/* Extra Small devices only */
+@media (max-width: 767px) {
+    #home-tiles {
+        padding: 50px;
+    }
+
+    #home-tiles h2 {
+        margin-top: -30px;
+    }
+}
